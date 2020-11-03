@@ -1,18 +1,148 @@
 
 
-<div class="row">
-  <div class="col-md-6">
-    <h3>Day 1</h3>
-    <table class="table table-striped">
-      <tr> <td>Before</td> <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop survey</a> </td> </tr>
-      <tr> <td>09:00</td>  <td>Selecting Data, Sorting and Removing Duplicates, Filtering</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee break</td> </tr>
-      <tr> <td>10:45</td>  <td>Calculating new values, Missing Data, Combining Data</td></tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Data Hygiene, Creating and Modifying Data</td> </tr>
-      <tr> <td>14:00</td>  <td>Coffee break</td> </tr>
-      <tr> <td>15:00</td>  <td>Programming with Databases - Python/R (if sufficient interest and time)</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
-    </table>
-  </div>
-</div>
+<table class="table table-striped">
+   <tbody>
+      <tr>
+         <td>Before</td>
+         <td>
+            <ul>
+               <li>
+                  <a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop survey</a>
+               </li>
+               <li>
+                  <a href="#setup">Setup</a>
+               </li>
+            </ul>
+         </td>
+         <td></td>
+      </tr>
+      <tr>
+         <td class="col-md-2">09:00</td>
+         <td class="col-md-3">
+            1. <a href="https://swcarpentry.github.io/sql-novice-survey/01-select/index.html">Selecting Data</a>
+         </td>
+         <td class="col-md-7">
+            How can I get data from a database?
+         </td>
+      </tr>
+      <tr>
+         <td class="col-md-2">09:20</td>
+         <td class="col-md-3">
+            2. <a href="https://swcarpentry.github.io/sql-novice-survey/02-sort-dup/index.html">Sorting and Removing Duplicates</a>
+         </td>
+         <td class="col-md-7">
+            How can I sort a query’s results?        <br>        How can I remove duplicate values from a query’s results?
+         </td>
+      </tr>
+      <tr>
+         <td class="col-md-2">09:40</td>
+         <td class="col-md-3">
+            3. <a href="https://swcarpentry.github.io/sql-novice-survey/03-filter/index.html">Filtering</a>
+         </td>
+         <td class="col-md-7">
+            How can I select subsets of data?
+         </td>
+      </tr>
+      <tr>
+         <td class="col-md-2">10:00</td>
+         <td class="col-md-3">
+            4. <a href="https://swcarpentry.github.io/sql-novice-survey/04-calc/index.html">Calculating New Values</a>
+         </td>
+         <td class="col-md-7">
+            How can I calculate new values on the fly?
+         </td>
+      </tr>
+      <tr>
+         <td class="col-md-2">10:30</td>
+         <td class="col-md-3">
+            Morning break
+         </td>
+         <td class="col-md-7">
+         </td>
+      </tr>
+      <tr>
+         <td class="col-md-2">10:45</td>
+         <td class="col-md-3">
+            5. <a href="https://swcarpentry.github.io/sql-novice-survey/05-null/index.html">Missing Data</a>
+         </td>
+         <td class="col-md-7">
+            How do databases represent missing information?        <br>        What special handling does missing information require?
+         </td>
+      </tr>
+      <tr>
+         <td class="col-md-2">11:00</td>
+         <td class="col-md-3">
+            6. <a href="https://swcarpentry.github.io/sql-novice-survey/06-agg/index.html">Aggregation</a>
+         </td>
+         <td class="col-md-7">
+            How can I calculate sums, averages, and other summary values?
+         </td>
+      </tr>
+      <tr>
+         <td class="col-md-2">11:30</td>
+         <td class="col-md-3">
+            7. <a href="https://swcarpentry.github.io/sql-novice-survey/07-join/index.html">Combining Data</a>
+         </td>
+         <td class="col-md-7">
+            How can I combine data from multiple tables?
+         </td>
+      </tr>
+      <tr>
+         <td class="col-md-2">12:00</td>
+         <td class="col-md-3">
+            Lunch break
+         </td>
+         <td class="col-md-7">
+         </td>
+      </tr>
+
+      <tr>
+         <td class="col-md-2">13:00</td>
+         <td class="col-md-3">
+            8. <a href="https://swcarpentry.github.io/sql-novice-survey/08-hygiene/index.html">Data Hygiene</a>
+         </td>
+         <td class="col-md-7">
+            How should I format data in a database, and why?
+         </td>
+      </tr>
+      <tr>
+         <td class="col-md-2">13:30</td>
+         <td class="col-md-3">
+            9. <a href="https://swcarpentry.github.io/sql-novice-survey/09-create/index.html">Creating and Modifying Data</a>
+         </td>
+         <td class="col-md-7">
+            How can I create, modify, and delete tables and data?
+         </td>
+      </tr>
+      <tr>
+         <td class="col-md-2">14:15</td>
+         <td class="col-md-3">
+            Afternoon break
+         </td>
+         <td class="col-md-7">
+         </td>
+      </tr>
+      <tr>
+         <td class="col-md-2">14:30</td>
+         <td class="col-md-3">
+            10. <a href="https://swcarpentry.github.io/sql-novice-survey/10-prog/index.html">Programming with Databases - Python</a> or <a href="https://swcarpentry.github.io/sql-novice-survey/11-prog-R/index.html">Programming with Databases - R</a>
+         </td>
+         <td class="col-md-7">
+            How can I access databases from programs written in Python or R?
+         </td>
+      </tr>
+      <tr>
+         <td class="col-md-2">15:30</td>
+         <td class="col-md-3">
+            Wrap-up
+         </td>
+         <td class="col-md-7">
+         </td>
+      </tr>
+      <tr>
+         <td class="col-md-2">16:00</td>
+         <td class="col-md-3">Finish</td>
+         <td class="col-md-7"></td>
+      </tr>
+   </tbody>
+</table>
