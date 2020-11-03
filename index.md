@@ -247,6 +247,23 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 
 <hr/>
 
+<h2 id="syllabus">Syllabus</h2>
+<div class="row">
+  <div class="col-md-6">
+    <h3 id="syllabus-sql"><a href="https://swcarpentry.github.io/sql-novice-survey/">Managing Data with SQL</a></h3>
+    <ul>
+      <li>Reading and sorting data</li>
+      <li>Filtering with <code>where</code></li>
+      <li>Calculating new values on the fly</li>
+      <li>Handling missing values</li>
+      <li>Combining values using aggregation</li>
+      <li>Combining information from multiple tables using <code>join</code></li>
+      <li>Creating, modifying, and deleting data</li>
+      <li>Programming with databases</li>
+      <li><a href="https://swcarpentry.github.io/sql-novice-survey/reference">Reference...</a></li>
+    </ul>
+  </div>
+</div>
 
 {% comment %}
 SCHEDULE
